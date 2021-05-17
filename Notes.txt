@@ -1,0 +1,15 @@
+What is Node ?
+>> Node js is an environment to run js Outside of the browser 
+With node js we built server side apps. It has no access to browser apis as it does not run on browser It runs outside of the browser  
+
+Diff between the Browser and Node js apps. 
+
+Browser Apps:
+-------------------
+It has access to all DOM,Window object ,Does not have any access to File system ,It depends on Browser ie if the user running on another browser then the application might break down because of the diff version.
+
+NodeJS app 
+--------------------------------
+
+Node js apps does not have access t DOM,Window object,But it has 
+all access to file systems ,System information.These app are server side apps which runs on server does not depends on browser depends on Node version.
