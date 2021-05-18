@@ -43,3 +43,22 @@ Module {
 😯    😯    😯    😯    😯   😯 
 
 In above the exports is responsible for a pretty cool thing .. what ever we include inside exports it is going to be accessible everywhere . 
+
+
+>>Inorder to share the data between the modules we use ::  
+  ## module.exports={sharable object properties }
+
+  >> inorder to access the data shared we use:: 
+  ## const var_name=require('./file path of data');
+
+
+
+  Alternative method of exporting  
+  ------------------------------------------
+
+  You can also try one of the following alternative methods of exporting data in Node 👇👇: 
+
+  1>module.exports.shared_property=[some property];
+                   OR 
+  2>const my_object={some property};
+  module.exports.shared_object=my_object;
