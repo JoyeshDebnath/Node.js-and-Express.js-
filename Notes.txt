@@ -13,3 +13,33 @@ NodeJS app
 
 Node js apps does not have access t DOM,Window object,But it has 
 all access to file systems ,System information.These app are server side apps which runs on server does not depends on browser depends on Node version.
+
+/*   */
+__dirname - Path to the current  directory
+__filename - File name 
+require- Function to use modules (CommonJS)
+module- info about the current module (file )
+process - info about the environment where the program is being  executed
+/*             */
+
+If we execute the command :  console.log(module )  we get the following ::
+😯   😯    😯     😯    😯    😯
+Module {
+  id: '.',
+  path: 'C:\\Users\\KIIT\\Desktop\\Backend Practice\\Sample_codes',
+  exports: {},
+  filename: 'C:\\Users\\KIIT\\Desktop\\Backend Practice\\Sample_codes\\4-Names.js',
+  loaded: false,
+  children: [],
+  paths: [
+    'C:\\Users\\KIIT\\Desktop\\Backend Practice\\Sample_codes\\node_modules',
+    'C:\\Users\\KIIT\\Desktop\\Backend Practice\\node_modules',
+    'C:\\Users\\KIIT\\Desktop\\node_modules',
+    'C:\\Users\\KIIT\\node_modules',
+    'C:\\Users\\node_modules',
+    'C:\\node_modules'
+  ]
+}
+😯    😯    😯    😯    😯   😯 
+
+In above the exports is responsible for a pretty cool thing .. what ever we include inside exports it is going to be accessible everywhere . 
