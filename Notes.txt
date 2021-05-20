@@ -62,3 +62,15 @@ In above the exports is responsible for a pretty cool thing .. what ever we incl
                    OR 
   2>const my_object={some property};
   module.exports.shared_object=my_object;
+
+
+  Built_IN_MODULES in NODE.js 👇👇: 
+  >>OS
+  >>PATH
+  >>FS
+  >>Http
+
+  1>OS module : It provides many functions to interact with the the operating system and server.
+
+  2>Path module provides a no of different functions to interact with the file and folder paths.
+  
