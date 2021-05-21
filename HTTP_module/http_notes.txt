@@ -1,0 +1,7 @@
+HTTP module: 
+  --------------------
+  syntax: const my_server=http.createServer((request,result)=>{
+
+  })
+
+  the createServer takes a callback function which recieves  2 parameters which are objects . 1> request which is the client request to the server and 2> result : which is our response to the client 

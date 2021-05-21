@@ -1,0 +1,24 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "![backend design](https://user-images.githubusercontent.com/75598588/119007439-da215e00-b9ae-11eb-8f6a-3538854b323e.gif)",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon app.js"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoyeshDebnath/Node.js-and-Express.js-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoyeshDebnath/Node.js-and-Express.js-/issues"
+  },
+  "homepage": "https://github.com/JoyeshDebnath/Node.js-and-Express.js-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

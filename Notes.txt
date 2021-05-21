@@ -73,4 +73,65 @@ In above the exports is responsible for a pretty cool thing .. what ever we incl
   1>OS module : It provides many functions to interact with the the operating system and server.
 
   2>Path module provides a no of different functions to interact with the file and folder paths.
+
+
+
+  HTTP module: 
+  --------------------
+  syntax: const my_server=http.createServer((request,result)=>{
+
+  })
+
+  the createServer takes a callback function which recieves  2 parametrs which are objects . 1> request which is the client request to the server and 2> result : which is our response to the client 
   
+
+  Package.json is a very imp file that holds all the vital information and configuration about our project folders and dependencies.  
+  To install it or set it in our project there are 3 ways : 
+  1> Manually create a package.json but it should be at the root of the project we are currently  Working.and then create all the properties manually....
+  2> npm init (step by step, press enter to skip);
+  3> npm init -y(everything default) 
+
+  
+  Do install and add the node_modules package in project use the command : 
+  >>  npm install nodemon -D
+
+
+  🎅   🎅  🤶   🤶   🤶  👼   🧔   👲  👲    👲
+  try these in package.json 👇
+
+   "scripts": {
+    "start":"node app.js",
+    "dev":"nodemon app.js"
+  },
+
+
+>> u will see that if u run npm start or npm run start or npm run dev then the app.js will get executed. that is here in package.json under the scripts we can set our own commands .
+
+IMP:::::👇👇👇
+
+>> since we set >> 👉 "dev":"nodemon app.js "  👈
+ >>>>>> this allows nodemon to keep an eye on our app.js and every time we make any changes to the app.js the app.js will get automatically restarted and executed ie we dont need to run any start command after making changes in the app.js file . the nodemon keeps an eye on the file and does the job automatically .. 👲  u can also set the "start": as "nodemon app.js " instead of node app.js so that the nodemon will keep an eye on ur app.js like previous and instead of typing the command npm start every time as before after making any changes to the app.js file and saving the changes  u just need to type once npm start and the nodemon will automatically start the app.js file once u have saved the changes u made on app.js file ..........
+
+!ANCHOR remember the nodemon will keep on running behind to stop it press (ctrl+c)
+
+
+
+
+  
+  🎅   🎅  🤶   🤶   🤶  👼   🧔   👲  👲    👲
+
+
+
+  To install any package or dependencies : 
+  ---------------------------------------
+
+
+  we need to type the command :    npm install <Packagename>
+  ex:   npm install Firebase 
+
+  To uninstall any package : run the command :   npm uninstall <Packagename>
+  ex:   npm uninstall Firebase
+
+-------------------------------------------------------------
+
+To learn more about the package.lock.json  visit::    https://blog.logrocket.com/why-you-should-use-package-lock-json/
